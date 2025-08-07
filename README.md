@@ -36,7 +36,42 @@ A full-featured Airbnb clone web application built using the **MERN stack** (Mon
 | Mapbox         | Map integration for listings        |
 | HTML/CSS/JS    | UI structure and styling            |
 
+
 ---
 
-## 📁 Project Structure
+## 🔐 Authentication
+
+- Handled using **Passport.js (Local Strategy)**
+- Sessions and secure password storage (via `bcrypt`)
+- Middleware to protect routes for **hosts** and **guests**
+
+---
+
+## 🗺️ Mapbox Integration
+
+- Display property locations with markers
+- Allow hosts to select location during listing creation
+- API key stored in environment variables
+
+---
+
+## 💻 Installation & Setup
+
+### ⚙️ Prerequisites
+
+- Node.js and npm
+- MongoDB installed locally or cloud DB URI
+- Mapbox API key
+
+### 🔧 Backend Setup (Server)
+
+```bash
+cd server
+npm install
+# Create .env file and add:
+# MONGO_URI=your_mongo_uri
+# SESSION_SECRET=your_secret_key
+# MAPBOX_TOKEN=your_mapbox_token
+node server.js
+
 
