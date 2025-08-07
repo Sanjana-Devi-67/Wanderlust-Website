@@ -1,30 +1,30 @@
-# 🏡 Airbnb Clone – MERN Stack Major Project
+# Airbnb Clone – MERN Stack Major Project
 
 A full-featured Airbnb clone web application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). This project replicates core Airbnb functionalities including user authentication, property listings, booking interactions, and reviews — all structured using the **MVC architecture** for better scalability and maintainability.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 👥 User Management
+### User Management
 - Secure user **registration and login** using `Passport.js`
 - Manage user **profile details** and authentication sessions
 - Role-based actions: **Host** (listing properties) and **Guest** (view & book)
 
-### 🏠 Property Listings
+### Property Listings
 - Hosts can **create**, **edit**, and **delete** listings
 - Each property includes **title**, **description**, **images**, **pricing**, **location (Mapbox)**, and **availability**
 
-### 📍 Map Integration
+### Map Integration
 - Integrated with **Mapbox API** for selecting and displaying property locations
 
-### ⭐ Reviews & Ratings
+### Reviews & Ratings
 - Guests can leave **ratings and written reviews** for properties after their stay
 - Average ratings displayed per listing
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Technology     | Role                                |
 |----------------|-------------------------------------|
@@ -39,7 +39,7 @@ A full-featured Airbnb clone web application built using the **MERN stack** (Mon
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 - Handled using **Passport.js (Local Strategy)**
 - Sessions and secure password storage (via `bcrypt`)
@@ -47,7 +47,7 @@ A full-featured Airbnb clone web application built using the **MERN stack** (Mon
 
 ---
 
-## 🗺️ Mapbox Integration
+## Mapbox Integration
 
 - Display property locations with markers
 - Allow hosts to select location during listing creation
@@ -55,15 +55,15 @@ A full-featured Airbnb clone web application built using the **MERN stack** (Mon
 
 ---
 
-## 💻 Installation & Setup
+## Installation & Setup
 
-### ⚙️ Prerequisites
+### Prerequisites
 
 - Node.js and npm
 - MongoDB installed locally or cloud DB URI
 - Mapbox API key
 
-### 🔧 Backend Setup (Server)
+### Backend Setup (Server)
 
 ```bash
 cd server
