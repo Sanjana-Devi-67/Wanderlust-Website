@@ -72,6 +72,6 @@ npm install
 # MONGO_URI=your_mongo_uri
 # SESSION_SECRET=your_secret_key
 # MAPBOX_TOKEN=your_mapbox_token
-node server.js
+node app.js
 
 
